@@ -50,7 +50,7 @@ $_SESSION['cart'] = $cart;
             ?>
             <div class="cart-product">
                 <div class="cart-product-image">
-                    <a href="single-product.html">
+                    <a href="single-product.php">
                         <img src="<?php echo $item->image ?>" alt="">
                     </a>
                 </div>
@@ -58,9 +58,9 @@ $_SESSION['cart'] = $cart;
                     <p>
                         <span><?php echo $item->quantity ?></span>
                         x
-                        <a href="single-product.html"><?php echo $item->title ?></a>
+                        <a href="single-product.php"><?php echo $item->title ?></a>
                     </p>
-                    <a href="single-product.html">S, Orange</a>
+                    <a href="single-product.php">S, Orange</a>
                     <span class="cart-price">$ <?php echo $item->price ?></span>
                 </div>
                 <div class="cart-product-remove">
@@ -79,7 +79,7 @@ $_SESSION['cart'] = $cart;
             </div>
         </div>
         <div class="cart-checkout">
-            <a href="checkout.html">
+            <a href="checkout.php">
                 Check out
                 <i class="fa fa-chevron-right"></i>
             </a>

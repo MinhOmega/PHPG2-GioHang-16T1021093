@@ -112,7 +112,7 @@ include_once("./header.php");
                                     <img src="img/shop/1.jpg" alt="" />
                                 </div>
                                 <div class="seller-details">
-                                    <a href="shop.html">
+                                    <a href="shop.php">
                                         <h5>Cold mountain</h5>
                                     </a>
                                     <h5>$ 50.00</h5>
@@ -200,7 +200,7 @@ include_once("./header.php");
                                             </a>
                                             <div class="product-description">
                                                 <div class="functional-buttons">
-                                                    <a href="#" title="Add to Cart" data-id="<?php echo $item->id ?>">
+                                                    <a class="cart" href="#" title="Add to Cart" data-id="<?php echo $item->id ?>">
                                                         <i class="fa fa-shopping-cart"></i>
                                                     </a>
                                                     <a href="#" title="Add to Wishlist">
@@ -235,7 +235,7 @@ include_once("./header.php");
                                 <div class="single-shop-product">
                                     <div class="col-xs-12 col-sm-5 col-md-4">
                                         <div class="left-item">
-                                            <a href="single-product.html" title="East of eden">
+                                            <a href="single-product.php" title="East of eden">
                                                 <img src="<?php echo $item->image ?>" alt="">
                                             </a>
                                         </div>
@@ -244,7 +244,7 @@ include_once("./header.php");
                                     <div class="col-xs-12 col-sm-7 col-md-8">
                                         <div class="deal-product-content">
                                             <h4>
-                                                <a href="single-product.html" title="East of eden"><?php echo $item->title ?></a>
+                                                <a href="single-product.php" title="East of eden"><?php echo $item->title ?></a>
                                             </h4>
                                             <div class="product-price">
                                                 <span class="new-price">$ <?php echo $item->price ?></span>
@@ -305,7 +305,7 @@ include_once("./footer.php");
                                     <p class="s-price"><span class="special-price"><span
                                                 class="amount"><?php echo $item->price ?></span></span></p>
                                 </div>
-                                <a href="product-details.html" class="see-all">See all features</a>
+                                <a href="product-details.php" class="see-all">See all features</a>
                                 <div class="quick-add-to-cart">
                                     <form method="post" class="cart">
                                         <div class="numbers-row">

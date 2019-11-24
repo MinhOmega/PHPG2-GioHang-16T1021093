@@ -12,7 +12,7 @@ $book = Book::getBookById($_REQUEST["id"]);
                     <h2>PRODUCT DETAILS</h2>
                     <ul class="breadcrumbs-list">
                         <li>
-                            <a title="Return to Home" href="index.html">Home</a>
+                            <a title="Return to Home" href="index.php">Home</a>
                         </li>
                         <li>Product Details</li>
                     </ul>
@@ -88,7 +88,7 @@ $book = Book::getBookById($_REQUEST["id"]);
                         </span>
                     </div>
                     <div class="add-to-wishlist">
-                        <a class="wish-btn" href="cart.html">
+                        <a class="wish-btn" href="cart.php">
                             <i class="fa fa-heart-o"></i>
                             ADD TO WISHLIST
                         </a>

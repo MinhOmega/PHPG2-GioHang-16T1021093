@@ -71,7 +71,7 @@ session_start();
             <div class="row">
                 <div class="col-md-2 col-sm-6 col-xs-6">
                     <div class="header-logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="img/logo.png" alt="">
                         </a>
                     </div>
@@ -80,7 +80,7 @@ session_start();
                     <div class="header-right">
                         <ul>
                             <li>
-                                <a href="account.html"><i class="flaticon-people"></i></a>
+                                <a href="account.php"><i class="flaticon-people"></i></a>
                             </li>
                             <li class="shoping-cart">
                                 <a href="#">
@@ -92,7 +92,7 @@ session_start();
                                         ?>
                                         <div class="cart-product">
                                             <div class="cart-product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product.php">
                                                     <img src="<?php echo $item->image ?>" alt="">
                                                 </a>
                                             </div>
@@ -100,9 +100,9 @@ session_start();
                                                 <p>
                                                     <span><?php echo $item->quantity ?></span>
                                                     x
-                                                    <a href="single-product.html"><?php echo $item->title ?></a>
+                                                    <a href="single-product.php"><?php echo $item->title ?></a>
                                                 </p>
-                                                <a href="single-product.html">S, Orange</a>
+                                                <a href="single-product.php">S, Orange</a>
                                                 <span class="cart-price">$ <?php echo $item->price ?></span>
                                             </div>
                                             <div class="cart-product-remove">
@@ -121,7 +121,7 @@ session_start();
                                         </div>
                                     </div>
                                     <div class="cart-checkout">
-                                        <a href="checkout.html">
+                                        <a href="checkout.php">
                                             Check out
                                             <i class="fa fa-chevron-right"></i>
                                         </a>
@@ -135,25 +135,25 @@ session_start();
                     <div class="mainmenu text-center">
                         <nav>
                             <ul id="nav">
-                                <li><a href="index.html">HOME</a></li>
-                                <li><a href="shop.html">FEATURED</a></li>
-                                <li><a href="shop.html">REVIEW BOOK</a></li>
-                                <li><a href="about.html">ABOUT AUTHOR</a></li>
+                                <li><a href="index.php">HOME</a></li>
+                                <li><a href="shop.php">FEATURED</a></li>
+                                <li><a href="shop.php">REVIEW BOOK</a></li>
+                                <li><a href="about.php">ABOUT AUTHOR</a></li>
                                 <li><a href="#">pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="cart.html">Cart Page</a></li>
-                                        <li><a href="checkout.html">Check Out</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
+                                        <li><a href="about.php">About Us</a></li>
+                                        <li><a href="cart.php">Cart Page</a></li>
+                                        <li><a href="checkout.php">Check Out</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="login.php">Login</a></li>
+                                        <li><a href="my-account.php">My Account</a></li>
                                         <li><a href="shop.php">Shopping Page</a></li>
-                                        <li><a href="single-product.html">Single Shop Page</a></li>
-                                        <li><a href="wishlist.html">Wishlist Page</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
+                                        <li><a href="single-product.php">Single Shop Page</a></li>
+                                        <li><a href="wishlist.php">Wishlist Page</a></li>
+                                        <!-- <li><a href="404.php">404 Page</a></li> -->
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">CONTACT</a></li>
+                                <li><a href="contact.php">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -162,7 +162,7 @@ session_start();
                     <div class="header-right">
                         <ul>
                             <li>
-                                <a href="account.html"><i class="flaticon-people"></i></a>
+                                <a href="account.php"><i class="flaticon-people"></i></a>
                             </li>
                             <li class="shoping-cart">
                                 <a href="#">
@@ -174,7 +174,7 @@ session_start();
                                         ?>
                                         <div class="cart-product">
                                             <div class="cart-product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product.php">
                                                     <img src="<?php echo $item->image ?>" alt="">
                                                 </a>
                                             </div>
@@ -182,9 +182,9 @@ session_start();
                                                 <p>
                                                     <span><?php echo $item->quantity ?></span>
                                                     x
-                                                    <a href="single-product.html"><?php echo $item->title ?></a>
+                                                    <a href="single-product.php"><?php echo $item->title ?></a>
                                                 </p>
-                                                <a href="single-product.html">S, Orange</a>
+                                                <a href="single-product.php">S, Orange</a>
                                                 <span class="cart-price">$ <?php echo $item->price ?></span>
                                             </div>
                                             <div class="cart-product-remove">
@@ -203,7 +203,7 @@ session_start();
                                         </div>
                                     </div>
                                     <div class="cart-checkout">
-                                        <a href="checkout.html">
+                                        <a href="checkout.php">
                                             Check out
                                             <i class="fa fa-chevron-right"></i>
                                         </a>
@@ -233,23 +233,23 @@ session_start();
                             <ul>
                                 <li><a href="index.php">HOME</a></li>
                                 <li><a href="shop.php">FEATURED</a></li>
-                                <li><a href="shop.html">REVIEW BOOK</a></li>
-                                <li><a href="about.html">ABOUT AUTHOR</a></li>
+                                <li><a href="shop.php">REVIEW BOOK</a></li>
+                                <li><a href="about.php">ABOUT AUTHOR</a></li>
                                 <li><a href="#">pages</a>
                                     <ul>
-                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="about.php">About Us</a></li>
                                         <li><a href="cart.php">Cart Page</a></li>
-                                        <li><a href="checkout.html">Check Out</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
+                                        <li><a href="checkout.php">Check Out</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="login.php">Login</a></li>
+                                        <li><a href="my-account.php">My Account</a></li>
                                         <li><a href="shop.php">Shopping Page</a></li>
                                         <li><a href="single-product.php">Single Shop Page</a></li>
-                                        <li><a href="wishlist.html">Wishlist Page</a></li>
+                                        <li><a href="wishlist.php">Wishlist Page</a></li>
                                         <li><a href="#">404 Page</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">CONTACT</a></li>
+                                <li><a href="contact.php">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>

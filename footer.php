@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-8">
 					<div class="footer-left">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="img/logo-2.png" alt="">
 						</a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -29,7 +29,7 @@
 					<div class="single-footer">
 						<h2 class="footer-title">Information</h2>
 						<ul class="footer-list">
-							<li><a href="about.html">About Us</a></li>
+							<li><a href="about.php">About Us</a></li>
 							<li><a href="#">Delivery Information</a></li>
 							<li><a href="#">Privacy & Policy</a></li>
 							<li><a href="#">Terms & Conditions</a></li>
@@ -41,11 +41,11 @@
 					<div class="single-footer">
 						<h2 class="footer-title">My Account</h2>
 						<ul class="footer-list">
-							<li><a href="my-account.html">My Account</a></li>
-							<li><a href="account.html">Login</a></li>
-							<li><a href="cart.html">My Cart</a></li>
-							<li><a href="wishlist.html">Wishlist</a></li>
-							<li><a href="checkout.html">Checkout</a></li>
+							<li><a href="my-account.php">My Account</a></li>
+							<li><a href="account.php">Login</a></li>
+							<li><a href="cart.php">My Cart</a></li>
+							<li><a href="wishlist.php">Wishlist</a></li>
+							<li><a href="checkout.php">Checkout</a></li>
 						</ul>
 					</div>
 				</div>

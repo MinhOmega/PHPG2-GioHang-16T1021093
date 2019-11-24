@@ -98,4 +98,43 @@
             }
         )
     });
+    $(".cart").click(function (e) {
+        e.preventDefault();
+        var id = $(this).attr("data-id");
+        var title = $(this).closest(".product__content").find("h4").text();
+        var price = $(this).closest(".product__content").find(".price").attr("data-price");
+        var author = $(this).closest(".product").find(".hot-label").html();
+        var image = $(this).closest(".product").find(".first__img").find("img").attr("src");
+        var quantity = 1;
+        // alert(id+" "+ price+ " "+title+ " "+image+ " "+author);
+        console.log(price);
+        console.log(id);
+        console.log(title);
+        console.log(image);
+        //alert(id); 
+
+        $.ajax({
+            url: "minicartinfo.php",
+            type: "post",
+            dataType: "html",
+            data: {
+                "id": id,
+                "title": title,
+                "price": price,
+                "quantity": quantity,
+                "image": image,
+            },
+        }).done(
+            function (html_data) {
+
+                //Gán lại giỏ hàng mới
+                $(".add-to-cart-product").html(html_data);
+
+                //Bind lại event nút close cho giỏ hàng
+                // $('.micart__close').on('click', function () {
+                //     $('.minicart__active').removeClass('is-visible');
+                // });
+            }
+        )
+    })
 })(jQuery);

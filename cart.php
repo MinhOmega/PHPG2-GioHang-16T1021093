@@ -23,7 +23,7 @@ foreach ($cart as $item) {
                     <h2>SHOPPING CART</h2>
                     <ul class="breadcrumbs-list">
                         <li>
-                            <a title="Return to Home" href="index.html">Home</a>
+                            <a title="Return to Home" href="index.php">Home</a>
                         </li>
                         <li>Shopping Cart</li>
                     </ul>
